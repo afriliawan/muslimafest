@@ -1,0 +1,279 @@
+body {
+  background-color: #fff;
+}
+
+.ticket {
+  font-family: sans-serif;
+
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  background-color: #04030C;
+  width: 700px;
+  height: 200px;
+  border-radius: 15px;
+  -webkit-filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+            filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3)); 
+  display: block;
+  margin: 1% auto auto auto;
+  color: #fff;;
+}
+
+.date {
+  margin: 15px;
+  -webkit-filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+            filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3)); 
+}
+
+.date .day{
+  font-size: 50px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  line-height: 40px;
+}
+
+.date .month-and-time {
+  float: left;
+  margin: 18px 0 0 5px;
+  font-weight: bold;
+  color:#fff;
+  font-size: 19px;
+  opacity: 0.6;
+  line-height: 20px;
+}
+
+.harga {
+  font-size: 42px;
+  margin: 35px 100px 0 20px;
+  width: 320px;
+  float: left;
+  font-weight: bold;
+  -webkit-filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+            filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3)); 
+}
+
+.kegiatan {
+  float: left;
+  margin: 131px 0 0 37px;
+  font-size: 24px;
+  font-weight: bold;
+  -webkit-filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+            filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3)); 
+  position: absolute;
+}
+
+.location {
+  float: left;
+  margin: 135px 0 0 78px;
+  font-size: 30px;
+  font-weight: bold;
+  -webkit-filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+            filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3)); 
+}
+
+.location::before {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/cb/QRCodeWikipedia.png');
+  background-size: 110px 110px;
+  width: 110px; 
+  height: 110px;
+  content:"";
+  display: inline-block;
+  float: left;
+  position: absolute;
+  left: -160px;
+  bottom: 5px;
+  -webkit-filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+            filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3)); 
+}
+
+.rip {
+  border-right: 8px dotted #fff;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 330px;
+}
+
+.cta .buy {
+  position: absolute;
+  top: 135px;
+  right: 15px;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #436ea5;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  -webkit-filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+            filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3)); 
+}
+
+.small {
+  font-weight: 200;
+}
+
+.ticket-1 {
+    background: url("../images/tiket-bg-01.jpg");
+	background-size: 100%;
+	background-position: 0px 0px;
+}
+.ticket-2{
+	 background: url("../images/tiket-bg-02.jpg");
+	 background-size: 100%;
+	 background-position: 0px 0px;
+}
+.ticket-3{
+	 background: url("../images/tiket-bg-03.jpg");
+	 background-size: 100%;
+	 background-position: 0px 0px;
+}
+.ticket-4{
+	 background: url("../images/tiket-bg-04.jpg");
+	 background-size: 100%;
+	 background-position: 0px 0px;
+}
+.ticket-left {
+	width: 330px;
+	height:60px;
+	float: left;
+	position: relative;
+}
+.ticket-right {
+	width: 360px;
+	height:60px;
+	float: left;
+}
+.thumb-ticket img {
+	width: 60%;
+}
+
+
+
+/* Input Number */
+.pt_Quantity {
+	margin-left: 20px;
+	margin-top: 73px;
+position: absolute;
+}
+.pt_Quantity .pt_QuantityNav {
+    float: left;
+    position: relative;
+    height: 90px;
+}
+.pt_Quantity input {
+  color: #443017;
+  border-radius: 2px;
+  background-color: #ffffff;
+  border: solid 1px #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  min-width: 45px;
+  height: 61px;
+  float: left;
+  display: block;
+  padding: 0 15px 0 2px;
+  margin: 0;
+  text-align: center;
+  width: 120px;
+}
+.pt_Quantity input:focus {
+  outline: 0;
+}
+.pt_Quantity .pt_QuantityNav {
+  float: left;
+  position: relative;
+  height: 61px;
+}
+.pt_Quantity .pt_QuantityNav .pt_QuantityButton {
+  position: relative;
+  cursor: pointer;
+  border-left: 1px solid #b7b7b7;
+  width: 15px;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  font-size: 30px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+  line-height: 29px;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.pt_Quantity .pt_QuantityNav .pt_QuantityButton:active {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.pt_Quantity .pt_QuantityNav .pt_QuantityButton.pt_QuantityUp {
+  position: absolute;
+  height: 50%;
+  width: 50px;
+  top: 0;
+  border-bottom: 1px solid #b7b7b7;
+}
+.pt_Quantity .pt_QuantityNav .pt_QuantityButton.pt_QuantityDown {
+  position: absolute;
+  bottom: 0px;
+  height: 50%;
+  width: 50px;
+}
+
+@media (max-width: 600px) {
+	.ticket {
+		width: 100%;
+		height: 100px;
+		background-size: 102%;
+		background-position: 24px -30px;
+		margin-bottom: 20px;
+	}
+	.harga {
+		font-size: 20px;
+		margin: -17px 100px 0 13px
+	}
+	.kegiatan {
+		font-size: 12px;
+		margin: 47px 0 0 14px;
+	}
+	.pt_Quantity {
+    	margin-left: 200px;
+		margin-top: -82px;
+    	position: absolute;
+		font-size: 12px;
+	}
+	.rip {
+		height: 100px;
+	}
+	.date .day {
+		font-size: 20px;
+		line-height: 19px;
+		margin-top: -5px;
+		margin-left: -2px;
+	}
+	.date .month-and-time {
+		margin: -3px 0 0 12px;
+		font-size: 10px;
+		line-height: 0px;
+	}
+	.thumb-ticket img {
+		width: 90%;
+	}
+
+}
+
+@media (max-width: 360px) {
+	.ticket {
+		background-size: 148%;
+		background-position: -34px -51px;
+		border-radius: 10px;
+	}
+}
